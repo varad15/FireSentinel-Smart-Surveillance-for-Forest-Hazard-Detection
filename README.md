@@ -1,22 +1,39 @@
-# Fire Detection App 🔥
+🔥 FireSentinel: Smart Surveillance for Forest Hazard Detection
+A cutting-edge, AI-powered surveillance system for real-time wildfire and hazard detection in forest environments. Leverage deep learning, computer vision, and the cloud to safeguard ecologies and communities.
 
-This is a fire detection application using YOLOv8 and Tkinter for GUI.
+🌲 Overview
+FireSentinel utilizes advanced deep learning models, edge-computing cameras, and centralized cloud-based dashboards to detect, alert, and help mitigate wildfire risks and other hazards in forested regions. The system is designed for reliability, scalability, and integration with existing emergency infrastructure.
 
-## Features
-- Detects fire from webcam or video file.
-- Displays real-time bounding boxes.
-- Tracks accuracy and confusion matrix.
-- Saves detections to `detections.json`.
+✨ Features
+Real-Time Hazard Detection:
+Deploys YOLO-based neural networks to identify smoke, flames, and fire sources from video streams.
 
-## Requirements
-- Python 3.11
-- Ultralytics (YOLOv8)
-- OpenCV
-- Tkinter
-- scikit-learn
-- Seaborn
-- Matplotlib
+Edge Surveillance:
+Raspberry Pi or Jetson Nano powered smart cameras process video locally, minimizing network bandwidth.
 
-## How to Run
-```bash
-python main.py
+Cloud Dashboard:
+Monitor all cameras, view live alerts, and manage hazard events from a sleek, web-based portal.
+
+Instant Alerting:
+Automated notifications via SMS, email, and dashboard popups ensure responders are alerted when every second counts.
+
+Event Logging:
+All detections with location, time, and image/video evidence are recorded for analysis and compliance.
+
+Heatmap Visualization:
+Visual display of hazard-prone areas to aid in pro-active forest management.
+
+Easy Deployment:
+Plug-and-play scripts, Dockerfiles, and comprehensive documentation.
+
+🚀 Quick Start
+Prerequisites
+Python 3.7+
+
+Raspberry Pi or Nvidia Jetson Nano (for edge device)
+
+Ubuntu/Debian server (for dashboard/backend)
+
+YOLOv5 pre-trained weights
+
+Basic hardware: webcam(s), internet access
