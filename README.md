@@ -67,5 +67,3 @@ Designed for forest authorities and environmental agencies, FireSentinel unifies
 
 ---
 
-## 📁 Repository Structure
-
