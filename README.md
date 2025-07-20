@@ -1,39 +1,71 @@
-🔥 FireSentinel: Smart Surveillance for Forest Hazard Detection
-A cutting-edge, AI-powered surveillance system for real-time wildfire and hazard detection in forest environments. Leverage deep learning, computer vision, and the cloud to safeguard ecologies and communities.
+# 🔥 FireSentinel: Smart Surveillance for Forest Hazard Detection
 
-🌲 Overview
-FireSentinel utilizes advanced deep learning models, edge-computing cameras, and centralized cloud-based dashboards to detect, alert, and help mitigate wildfire risks and other hazards in forested regions. The system is designed for reliability, scalability, and integration with existing emergency infrastructure.
+*AI meets ecology—real-time wildfire risk detection for safer, smarter forests.*
 
-✨ Features
-Real-Time Hazard Detection:
-Deploys YOLO-based neural networks to identify smoke, flames, and fire sources from video streams.
+---
 
-Edge Surveillance:
-Raspberry Pi or Jetson Nano powered smart cameras process video locally, minimizing network bandwidth.
+## 🌲 Project Description
 
-Cloud Dashboard:
-Monitor all cameras, view live alerts, and manage hazard events from a sleek, web-based portal.
+FireSentinel is an advanced, AI-driven, full-stack surveillance solution for early detection and management of forest fires and related hazards.
 
-Instant Alerting:
-Automated notifications via SMS, email, and dashboard popups ensure responders are alerted when every second counts.
+Designed for forest authorities and environmental agencies, FireSentinel unifies edge-based deep learning, robust streaming, and central dashboards to monitor vast landscapes—minimizing response time and maximizing ecological protection.
 
-Event Logging:
-All detections with location, time, and image/video evidence are recorded for analysis and compliance.
+---
 
-Heatmap Visualization:
-Visual display of hazard-prone areas to aid in pro-active forest management.
+## 🚀 Core Features
 
-Easy Deployment:
-Plug-and-play scripts, Dockerfiles, and comprehensive documentation.
+- **Real-Time Hazard Recognition:**  
+  Detects smoke, flames, and fire using deep neural networks on live camera feeds.
 
-🚀 Quick Start
-Prerequisites
-Python 3.7+
+- **Edge AI Nodes:**  
+  Deploys on Raspberry Pi or Jetson Nano—processing images locally to reduce bandwidth and latency.
 
-Raspberry Pi or Nvidia Jetson Nano (for edge device)
+- **Unified Cloud Dashboard:**  
+  Aggregates and visualizes all alerts, device statuses, and historical event logs for rapid assessment.
 
-Ubuntu/Debian server (for dashboard/backend)
+- **Automated Multi-Channel Alerts:**  
+  Instantly notifies rangers or emergency teams via SMS, email, and dashboard pop-ups.
 
-YOLOv5 pre-trained weights
+- **Heatmaps & Analytics:**  
+  Pinpoint and monitor historical high-risk areas on interactive maps.
 
-Basic hardware: webcam(s), internet access
+- **Privacy & Security:**  
+  Communicates critical data only; all access is role-based.
+
+---
+
+## 🧠 System Architecture Overview
+
+- **Edge Camera Nodes:**  
+  Local device runs object detection, sends only alert frames or events to the cloud.
+
+- **Cloud Backend:**  
+  Central server receives, stores, and escalates hazard events; supports web dashboard.
+
+- **Web Dashboard:**  
+  Allows operators to view live alerts, historical logs, and analytics in one place.
+
+---
+
+## 📊 Key Technologies
+
+- **Deep Learning:** YOLOv5 / YOLOv8 (fire and smoke detection), PyTorch
+- **Computer Vision:** OpenCV for low-level camera and image processing
+- **IoT/Edge Hardware:** Raspberry Pi, Jetson Nano, standard web cameras
+- **Backend:** FastAPI / Flask (Python)
+- **Frontend:** Modern web dashboard interface
+- **Geo-Visualization:** Folium/OpenStreetMap
+- **Messaging:** Email, SMS, WebSocket alerting for incident response
+
+---
+
+## 💡 Impact
+
+- **Early detection** reduces potential wildfire spread and ecological harm.
+- **Data-driven forestry** through automated, 24/7 monitoring and smart analytics.
+- **Operator safety:** Keeps rangers and emergency staff one step ahead of danger with instant, multi-channel alerts.
+
+---
+
+## 📁 Repository Structure
+
